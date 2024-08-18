@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: Brush Script MT, cursive;
+    background: white;
+    color: #6F4E37;
+    padding: 20px 0;
+    height: 100px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1350px;
+    margin-top: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #6F4E37;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: Brush Script MT, cursive;
+    font-size: 22px;
+}
+
+nav ul li a:hover {
+    background: rgba(254,109,0,0.31);
+    border-radius: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+footer {
+    background: #6F4E37;
+    color: #FED8B1;
+    font-family: Brush Script MT, cursive;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #444;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    min-height: 70vh;
+}
+.item-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.item {
+    padding: 10px 20px;
+    background: #6F4E37;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.item-all{
+    padding: 10px 20px;
+    background: rgba(150,109,63,0.86);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background: rgba(150,109,63,0.86);
+}
+.item-all:hover {
+    background: #6F4E37;
+}

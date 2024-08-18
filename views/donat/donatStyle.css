@@ -1,0 +1,66 @@
+.main-container{
+    position: relative;
+    margin-top: 20px;
+    font-family: Trebuchet MS;
+
+}
+
+.donat-container{
+    width: 450px;
+    position: absolute;
+    top:140px;
+    left: -45px;
+    text-align: center;
+    border: 2px solid #6e6e6e;
+    border-radius: 15px;
+    padding: 50px;
+    box-shadow: 1px 1px 20px 9px #6F4E37;
+}
+.donat-container form button{
+    background-color: #6F4E37;
+}
+
+
+table{
+    border-collapse: collapse;
+    height: 200px;
+    margin-top: 50px;
+}
+table tr th{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 30px;
+    font-family: "Calibri";
+    font-weight: normal;
+}
+
+table .name-table{
+    background-color: #A0937D;
+}
+
+
+.pay-container{
+    border: 2px solid #A0937D;
+    width: 400px;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    background-color: #A0937D;
+    color:white;
+
+}
+.pay-container form button{
+    background-color: #6F4E37;
+    width: 200px;
+}
+
+form .error-p {
+    color: #FED8B1;
+    font-size: 15px;
+    background-color: rgba(122,89,55,0.86);
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid rgba(122,89,55,0.86);
+    margin-bottom: 15px;
+    display: none;
+}

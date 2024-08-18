@@ -1,0 +1,147 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.form-group button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #218838;
+}
+
+
+img{
+    width: 210px;
+    height: 160px;
+
+}
+.category-item{
+    height: 290px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 20px 20px 20px 0;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    transition: transform 0.25s;
+}
+.category-item:hover{
+    transform: scale(1.1);
+
+}
+
+.category{
+    padding: 8px;
+    margin-bottom: 2px;
+    width: 150px;
+    border: 0 ;
+    background-color: #6F4E37;
+    color: white;
+    position: absolute;
+    left: 100px;
+    border-radius:10px ;
+}
+.delete-item{
+    padding: 5px;
+    margin-top: 40px;
+    width: 150px;
+    border: 0 ;
+    background-color:rgba(122,89,55,0.86) ;
+    color: white;
+    border-radius: 10px;
+
+}
+.edit-item{
+    padding: 5px;
+    width: 150px;
+    border: 0 ;
+    background-color: #A0937D;
+    color: white;
+    border-radius: 10px;
+
+}
+.category-title{
+    margin-bottom: 4px;
+}
+
+
+
+
+.view{
+    width: 210px;
+    height: 160px;
+}
+.pet-item{
+    height: 260px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 20px 20px 20px 0;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    transition: transform 0.25s;
+}
+.pet-item:hover{
+    transform: scale(1.1);
+
+}
+.pet-name{
+    margin-bottom: 2px;
+}
+.pet-description{
+    margin-bottom: 2px;
+}
+
+.delete-view-item{
+    padding: 3px;
+    margin-bottom: 2px;
+    width: 150px;
+    border: 0 ;
+    background-color: #FED8B1;
+    color: #cccccc;
+
+}
+.edit-view-item{
+    padding: 3px;
+    width: 150px;
+    border: 0 ;
+    background-color: #A0937D;
+    color: #cccccc;
+
+}
+.pet{
+    padding: 5px;
+    margin-bottom: 2px;
+    width: 150px;
+    border: 0 ;
+    background-color: #6F4E37;
+    color: #cccccc;
+    position: absolute;
+    left: 100px;
+    border-radius:10px ;
+}

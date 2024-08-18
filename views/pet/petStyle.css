@@ -1,0 +1,115 @@
+img {
+    width: 210px;
+    height: 160px;
+}
+.pet-item {
+    height: 260px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 20px 20px 20px 0;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    transition: transform 0.25s;
+}
+.pet-item:hover {
+    transform: scale(1.1);
+}
+.delete-item {
+    padding: 3px;
+    margin-bottom: 2px;
+    width: 150px;
+    border: 0;
+    background-color: #6F4E37;
+    color: #cccccc;
+}
+.edit-item {
+    padding: 3px;
+    width: 150px;
+    border: 0;
+    background-color: #A0937D;
+    color: #cccccc;
+}
+.pet {
+    padding: 8px;
+    margin-bottom: 2px;
+    width: 150px;
+    border: 0;
+    background-color: #6F4E37;
+    color: #cccccc;
+    position: absolute;
+    left: 100px;
+    border-radius: 10px;
+}
+
+/*Add.php*/
+.add-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.add-group {
+    margin-bottom: 15px;
+}
+.add-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.add-group input[type="text"],
+.add-group input[type="number"],
+.add-group input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.add-group button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add-group button:hover {
+    background-color: #218838;
+}
+
+
+/*Update.php*/
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.form-group button {
+    padding: 10px 15px;
+    background-color: #6F4E37;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #218838;
+}

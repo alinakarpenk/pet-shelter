@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.about-us {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: 50px 40px 20px 40px;
+
+}
+.about-us h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Calibri;
+    color: rgba(52,52,52,0.85);
+
+}
+.about-item{
+    border: 1px;
+    box-shadow: 0 0 25px 1px rgba(135,135,135,0.85);
+    border-radius: 10px;
+    margin: 20px;
+    width: 250px;
+    height: 100px;
+    padding: 15px;
+    color: rgba(44,44,44,0.85);
+    font-family: Calibri;
+}
